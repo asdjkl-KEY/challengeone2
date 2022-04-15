@@ -111,6 +111,14 @@ aside {
         font-size: 1.3em;
     }
     #thumbnail {
-        width: 45px;
+        width: 5px;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+    }
+    .btn {
+        width: 40%;
+        margin-left: 0%;
     }
 }
