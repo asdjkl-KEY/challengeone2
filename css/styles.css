@@ -120,7 +120,8 @@ hr {
         padding: 24px;
     }
     main > p {
-        width: 80%;
+        width: auto;
+        padding: 16px;
     }
     .contain-form {
         display: flex;
