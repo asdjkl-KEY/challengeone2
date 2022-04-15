@@ -119,6 +119,9 @@ hr {
         margin: 0;
         padding: 24px;
     }
+    main > p {
+        width: 80%;
+    }
     .contain-form {
         display: flex;
         flex-direction: column;
