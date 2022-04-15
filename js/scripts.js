@@ -33,10 +33,10 @@ function decrypt(string) {
         ufat: "u"
     }
     let list = ['ai', 'enter', 'imes', 'ober', 'ufat'];
-    for (i of list) {
-        if(string.includes(i)) {
-            let exp = new RegExp(i, 'i');
-            for(a = 0; a < (string.length/2); a++){
+    for(a = 0; a < (string.length/2); a++){
+        for (i of list) {
+            if(string.includes(i)) {
+                let exp = new RegExp(i, 'i');
                 string = string.replace(i, dic[i]);
             }
         }
