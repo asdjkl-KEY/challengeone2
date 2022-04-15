@@ -99,6 +99,20 @@ aside {
     margin-top: 12px;
     margin-left: 15%;
 }
+footer {
+    background-color: #5798fa;
+}
+.footer-text {
+    display: block;
+    text-align: center;
+    padding: 12px;
+}
+hr {
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    border: #defafc 1px solid;
+}
 @media only screen and (max-width: 991px) {
     .contain-form {
         display: flex;
@@ -128,22 +142,4 @@ aside {
     #copy {
         position: relative;
     }
-}
-
-/*
-Rodapé
-*/
-footer {
-    background-color: #5798fa;
-}
-.footer-text {
-    display: block;
-    text-align: center;
-    padding: 12px;
-}
-hr {
-    display: block;
-    width: 80%;
-    margin-left: 10%;
-    border: #defafc 1px solid;
 }
