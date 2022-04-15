@@ -129,3 +129,21 @@ aside {
         position: relative;
     }
 }
+
+/*
+Rodapé
+*/
+footer {
+    background-color: #5798fa;
+}
+.footer-text {
+    display: block;
+    text-align: center;
+    padding: 12px;
+}
+hr {
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    border: #defafc 1px solid;
+}

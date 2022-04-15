@@ -68,3 +68,9 @@ decodificar.addEventListener('click', (event) => {
     event.preventDefault();
     code.textContent = decrypt(texto.value);
 })
+
+
+//footer
+let year = document.getElementById('year');
+let currentYear = new Date().getFullYear();
+year.textContent = currentYear;
