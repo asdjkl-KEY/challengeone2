@@ -111,14 +111,30 @@ aside {
         font-size: 1.3em;
     }
     #thumbnail {
-        width: 5px;
+        width: 25px;
     }
     .buttons {
         display: flex;
         flex-direction: row;
+        gap: 0;
+        grid-template-columns: none;
+        padding: 0;
+        position: relative;
     }
     .btn {
         width: 40%;
         margin-left: 0%;
+        margin: 0;
+        position: absolute;
+        bottom: 10%;
+    }
+    #codificar {
+        left: 5%;
+    }
+    #decodificar {
+        right: 5%;
+    }
+    #copy {
+        position: relative;
     }
 }
