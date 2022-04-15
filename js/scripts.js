@@ -70,7 +70,7 @@ decodificar.addEventListener('click', (event) => {
 })
 
 
-//footer
+//footer scripts
 function footer() {
     let years = document.getElementById('year');
     let currentYear = new Date().getFullYear();
