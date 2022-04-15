@@ -108,25 +108,16 @@ aside {
         height: 250px;
     }
     h1 {
-        font-size: 1.3em;
+        font-size: 1em;
     }
     #thumbnail {
-        width: 25px;
+        width: 35px;
     }
     .buttons {
-        display: flex;
-        flex-direction: row;
-        gap: 0;
+        display: grid;
         grid-template-columns: none;
-        padding: 0;
-        position: relative;
-    }
-    .btn {
-        width: 40%;
-        margin-left: 0%;
-        margin: 0;
-        position: absolute;
-        bottom: 10%;
+        grid-template-rows: 1fr 1fr;
+        gap: 16px;
     }
     #codificar {
         left: 5%;
