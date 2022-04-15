@@ -71,6 +71,11 @@ decodificar.addEventListener('click', (event) => {
 
 
 //footer
-let year = document.getElementById('year');
-let currentYear = new Date().getFullYear();
-year.textContent = currentYear;
+function footer() {
+    let years = document.getElementById('year');
+    let currentYear = new Date().getFullYear();
+    years.textContent = currentYear;
+}
+document.onreadystatechange = () => {
+    footer();
+}
